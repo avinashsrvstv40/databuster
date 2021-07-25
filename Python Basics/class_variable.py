@@ -1,5 +1,5 @@
 class student:
-    college = 'XYZ'
+    college = 'XYZ' # class variable
     def __init__(self, name, rollno):
         self.name = name
         self.rollno = rollno
