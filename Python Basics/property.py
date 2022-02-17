@@ -25,9 +25,10 @@ print(mark.age)
 del mark.age
 
 
+
 "Using property decorator"
 
-class Geeks:
+class Details1:
 
     def __init__(self):
         self._age = 0
@@ -47,7 +48,7 @@ class Geeks:
         print("Delete method is called")
         del self._age
 
-mark1 = Geeks()
+mark1 = Details1()
 mark1.age = 10
 print(mark1.age)
 del mark1.age
